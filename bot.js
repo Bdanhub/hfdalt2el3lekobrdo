@@ -96,7 +96,7 @@ client.on('message', message => {
     if (message.content === '1help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت !1**')
+        .setDescription('**برفكس البوت 1**')
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
         .addField('disconnect', 'الخروج من رومك الصوتي')
@@ -167,7 +167,7 @@ if (message.content.startsWith(prefix + "uptime")) {
 });
 
 client.on('ready', () => {
-  client.user.setGame(` 1help  1play .`,'');
+  client.user.setGame(` 1help  1play .`,'https://www.twitch.tv/quastyle11');
   console.log('---------------');
   console.log('Desert Bot Is Online')
   console.log('---------------')
